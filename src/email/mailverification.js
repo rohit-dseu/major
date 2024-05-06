@@ -43,8 +43,8 @@ const resetpassword=async(emailid)=>{
     })
 
     const token=jwt.sign({emailid,type:'resetpassword'},'thisismyjwtsecret2')
-    const url=`http://localhost:9000/user/reset-password?token=${token}`
-//    const url=`https://class-admin.herokuapp.com/user/reset-password?token=${token}`
+    // const url=`http://localhost:9000/user/reset-password?token=${token}`
+   const url=`https://majorproject-bitfuturistic-54c66b47fa6d.herokuapp.com/user/reset-password?token=${token}`
     const mailOption={
         from:'aa4311+reset@dseu.ac.in',
         to:emailid,
