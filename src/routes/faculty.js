@@ -9,6 +9,7 @@ const subjects = require('../models/subject')
 const assignments = require('../models/assignment')
 const submissions = require('../models/submission');
 const user = require('../models/user')
+const { log } = require('console')
 
 router.use(bodyParser.urlencoded({extended: true}))
 
@@ -27,6 +28,7 @@ const upload = multer({
 
 
 router.get('/',auth,async(req,res)=>{
+  console.log('/faculty GET', req);
   var loginuser = req.user
   var notificationarray = []
   for(const one of loginuser.notifications) {
@@ -34,9 +36,13 @@ router.get('/',auth,async(req,res)=>{
     notificationarray.push(oneobj)
   }
   var subjectarray = []
+  try{
   for(const one of loginuser.electives) {
     var temp = await subjects.findById(one).populate('assignments').populate('submissions')
     subjectarray.push(temp)
+    console.log(loginuser, loginuser.electives,temp)
+  }}catch(err){
+    console.log(err)
   }
   res.render('teacherpanel.ejs',{user : loginuser, notificationarray : notificationarray, subjectarray : subjectarray})
 })

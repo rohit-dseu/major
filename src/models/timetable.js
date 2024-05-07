@@ -12,7 +12,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     12:{
@@ -21,7 +21,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     13:{
@@ -30,7 +30,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     14:{
@@ -39,7 +39,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     15:{
@@ -48,7 +48,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     16:{
@@ -57,7 +57,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     21:{
@@ -66,7 +66,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     22:{
@@ -75,7 +75,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     23:{
@@ -84,7 +84,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     24:{
@@ -93,7 +93,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     25:{
@@ -102,7 +102,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     26:{
@@ -111,7 +111,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     31:{
@@ -120,7 +120,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     32:{
@@ -129,7 +129,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     33:{
@@ -138,7 +138,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     34:{
@@ -147,7 +147,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     35:{
@@ -156,7 +156,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     36:{
@@ -165,7 +165,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     41:{
@@ -174,7 +174,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     42:{
@@ -183,7 +183,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     43:{
@@ -192,7 +192,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     44:{
@@ -201,7 +201,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     45:{
@@ -210,7 +210,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     46:{
@@ -219,7 +219,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     51:{
@@ -228,7 +228,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     52:{
@@ -237,7 +237,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     53:{
@@ -246,7 +246,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     54:{
@@ -255,7 +255,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     55:{
@@ -264,7 +264,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     56:{
@@ -273,7 +273,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     61:{
@@ -282,7 +282,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     62:{
@@ -291,7 +291,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     63:{
@@ -300,7 +300,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     64:{
@@ -309,7 +309,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     65:{
@@ -318,7 +318,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     66:{
@@ -327,7 +327,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     71:{
@@ -336,7 +336,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     72:{
@@ -345,7 +345,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     73:{
@@ -354,7 +354,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     74:{
@@ -363,7 +363,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     75:{
@@ -372,7 +372,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
     76:{
@@ -381,7 +381,7 @@ const timetableschema = mongoose.Schema({
         },
         link: {
             type: String,
-            default: 'https://meet.google.com/usa-brbv-enm',
+            default: 'https://meet.google.com/vyd-bryv-rkb',
         }
     },
 },{collection : 'Timetable'})

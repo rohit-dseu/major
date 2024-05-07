@@ -34,6 +34,8 @@ router.get('/',auth,async(req,res)=>{
     const oneobj = await notifications.findById(one)
     notificationarray.push(oneobj)
   }
+  console.log("loginuser",loginuser);
+  console.log("loginuser.branchsem",loginuser.branchsem);
   var temparray = await branchsems.findById(loginuser.branchsem)
   var subjectarray = []
   if(req.user.category == 'student') {

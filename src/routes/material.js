@@ -44,10 +44,10 @@ router.get('/',auth,async(req,res)=>{
       subjectarray.push(temp)
     }
   }
-    for(const one of req.user.electives) {
-      var temp = await subjects.findById(one).populate('chapters')
-      subjectarray.push(temp)
-    }
+    // for(const one of req.user.electives) {
+    //   var temp = await subjects.findById(one).populate('chapters')
+    //   subjectarray.push(temp)
+    // }
   // console.log(loginuser)
   // console.log(notificationarray)
   // console.log(subjectarray)

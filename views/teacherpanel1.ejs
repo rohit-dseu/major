@@ -353,8 +353,8 @@
       <!-- <strong><h3 id="noneselected" style="color: white; margin-top: 20%; text-align: center; background-color: #E8E8E8; z-index: -1; margin-left: 17.6%;">Select a file to show here.</h3></strong> -->
       <form action="" method="post" style="margin-top: 0.65%; margin-left: 17.7%;">
           <select id="submissions" name="submissions" onchange="showone()" style="padding: 0.8% 0.68%; border:none; background-color:whitesmoke;">
+            <option disabled selected>Select submission</option>
               <% assignment.submissions.forEach((one)=>{ %>
-                <option disabled selected>Select submission</option>
                 <option value="<%= one._id %>"
                 <% if(submission == undefined) { %>
                 <% } else if(submission._id.equals(one._id)) { %>
