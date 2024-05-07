@@ -101,16 +101,18 @@ router.get("/mailverification", async (req, res) => {
       console.log('yes')
       if(email)
       {
-        console.log('yes')
-        res.flash('info','Email is already registered, Try another one!')
+        console.log('yes: email already present in DB')
+        req.flash('info','Email is already registered, Try another one!')
         res.redirect('/user/signup')
       }
       else
       {
-        // console.log(req.file)
-        // console.log('yes')
-        // console.log(req.body)
-        var branchsem = await branchsems.findOne({branch : req.body.branch, sem : req.body.semester})
+        console.log(req.file)
+        console.log('yes')
+        console.log(req.body)
+        // const branchsem = await branchsems.findOne({branch : req.body.branch, sem : req.body.semester})
+        const branchsem = await branchsems.findOne({branch : req.body.branch})
+        console.log('branchsem : ',branchsem);
         if(branchsem == null) {
           req.flash('info',"You can't be registered now. Try again later!")
           res.redirect('/user/signup')
@@ -141,7 +143,6 @@ router.get("/mailverification", async (req, res) => {
       }
     }catch(e){
       console.log(e)
-      res.send(e)
     }
   });
 

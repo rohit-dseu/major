@@ -12,8 +12,8 @@ const mailverification=(emailid,id)=>{
     })
     
     const token=jwt.sign({_id:id,type:'mailverification'},'thisismyjwtsecret')
-     const url=`http://localhost:9000/user/mailverification?token=${token}`
-    //  const url=`https://class-admin.herokuapp.com/user/mailverification?token=${token}`
+    //  const url=`http://localhost:9000/user/mailverification?token=${token}`
+     const url=`https://class-admin.herokuapp.com/user/mailverification?token=${token}`
     const mailOption={
         from:'aa4311+verification@dseu.ac.in',
         to:emailid,
