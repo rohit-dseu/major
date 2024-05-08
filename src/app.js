@@ -48,6 +48,7 @@ app.use('/resources',require('./routes/material'));
 app.use('/timetable',require('./routes/timetable'));
 app.use('/placement',require('./routes/placement'));
 app.use('/faculty',require('./routes/faculty'));
+app.use('/student',require('./routes/student'));
 
 
 
